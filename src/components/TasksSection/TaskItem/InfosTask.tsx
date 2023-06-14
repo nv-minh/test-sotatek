@@ -2,7 +2,7 @@ import React from "react";
 import {Task} from "../../../interface.tsx";
 import useDate from "../../../hooks/useDate.tsx";
 import "./InfosTask.css"
-const InfosTask: React.FC<{ task: Task, onClick: React.MouseEventHandler<HTMLDivElement> | undefined }> = ({
+const InfosTask: React.FC<{ task: Task }> = ({
                                                                                                                task,
                                                                                                            }) => {
     const dateFormated = useDate(task.date);
