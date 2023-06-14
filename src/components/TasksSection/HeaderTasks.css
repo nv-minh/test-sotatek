@@ -1,0 +1,29 @@
+.header{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.btnMenu{
+    display: block;
+    margin-right: 1.5rem;
+}
+.description{
+    justify-content: right;
+    display: flex;
+    text-align: center;
+}
+@media (min-width: 1280px) {
+    .btnMenu{
+    display: none;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .header{
+    display: flex;
+    gap: 0;
+    }
+
+}

@@ -1,0 +1,26 @@
+.sectionTask {
+    padding: 1.25rem 0.75rem 2rem;
+    min-height: 100vh;
+    margin: auto;
+    position: relative;
+}
+
+@media (min-width: 640px) {
+    .sectionTask {
+        padding-bottom: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .sectionTask {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .sectionTask {
+        width: 66.666667%;
+    }
+}

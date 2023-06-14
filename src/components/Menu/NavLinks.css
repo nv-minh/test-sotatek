@@ -1,0 +1,25 @@
+.menu-tasks{
+    display: grid;
+    gap: 0.5rem;
+}
+.item-nav{
+    text-align: center;
+    text-decoration: inherit;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.5rem 0 0.5rem 0;
+    margin-left: 2px;
+    width: 100%;
+    display: block;
+    transition-property: all;
+    transition-duration: 0.3s;
+    color: rgb(226 232 240 /1)
+}
+.active-item{
+    background-color: rgb(51 65 85 / .2);
+    color: rgb(226 232 240 /1);
+    border-color: rgb(226 232 240 /1);
+}
+.item-nav:hover{
+    color: rgb(226 232 240 / 1);
+}

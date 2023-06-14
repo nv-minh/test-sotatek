@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    border-style: dashed;
+    border-color: rgb(51 65 85 / .3);
+    border-width: 1px;
+    border-radius: 0.25rem;
+    align-items: center;
+}

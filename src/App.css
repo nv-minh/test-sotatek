@@ -1,0 +1,21 @@
+.container-app{
+    min-height: 100vh;
+    background-color: rgb(15 23 42 /1 );
+    color: rgb(148 163 184 / 1);
+    font-size: 0.75rem/* 12px */;
+    line-height: 1rem/* 16px */;
+    padding: 0;
+}
+
+@media (min-width: 1280px) {
+    .container-app {
+        font-size: 1rem/* 16px */;
+        line-height: 1.5rem/* 24px */;
+    }
+}
+@media (min-width: 640px) {
+    .container-app {
+        font-size: 0.875rem/* 14px */;
+        line-height: 1.25rem/* 20px */;
+    }
+}

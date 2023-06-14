@@ -1,0 +1,42 @@
+.taskCompleted{
+    background-color: rgb(167 243 208 /1);
+    color: rgb(6 95 70 /1);
+    margin-right: 1rem;
+    border-radius: 9999px;
+    font-weight: 500;
+}
+.notTaskCompleted{
+    margin-right: 1rem;
+    background-color: rgb(253 230 138 /1);
+    color: rgb(146 64 14 /1);
+    font-weight: 500;
+}
+.status{
+    display: block;
+    padding: 0.25rem 0.75rem;;
+    position: absolute;
+    visibility: hidden;
+}
+.btnCompleted{
+    height: 1.5rem;
+    width: 1.5rem;
+    display: grid;
+    place-items: center;
+}
+.image{
+    width: 0.75rem;
+    height: 0.75rem;
+}
+@media (min-width: 640px) {
+    .status {
+        position: static;
+    }
+    .btnCompleted {
+        display: none;
+    }
+}
+@media (min-width: 640px) {
+    .status {
+        visibility: visible;
+    }
+}

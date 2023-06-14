@@ -1,0 +1,27 @@
+.container{
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.containerChecked{
+    background-color: rgb(20 30 51);
+    border-color: rgb(51 65 85 /1);
+    border-width: 1px;
+    place-items: center;
+    display: grid;
+    border-radius: 9999px;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.checked{
+    background-color: rgb(244 63 94 /1);
+    display: block;
+    border-radius: 9999px;
+    height: 0.5rem;
+    width: 0.5rem;
+}
+.label{
+    order: 1;
+    flex: 1 1 0%;
+}

@@ -1,0 +1,61 @@
+.modalForm{
+    display: flex;
+    flex-direction: column;
+}
+.inputStyles {
+    width: 100%;
+    background-color: #F3F4F6;
+    color: #4B5563;
+    border-radius: 0.375rem;
+    padding: 0.75rem 0;
+    outline: none;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.inputStyles:hover {
+    border-color: #7C3AED;
+}
+
+.inputStyles:focus {
+    border-color: #7C3AED;
+    outline: none;
+}
+
+.inputStyles.dark {
+    color: #CBD5E0;
+    background-color: #1F2937;
+}
+
+.inputStyles.dark:hover {
+    border-color: #7C3AED;
+}
+
+.inputStyles.dark:focus {
+    border-color: #7C3AED;
+    outline: none;
+}
+.inputStyles::placeholder {
+    color: #9CA3AF;
+}
+
+.stylesInputsField input,
+.stylesInputsField textarea,
+.stylesInputsField select {
+    margin-top: 0.25rem;
+}
+
+.stylesInputsField label {
+    margin-bottom: 1rem;
+    color: #4B5563;
+}
+.inputModal{
+    width: 100%;
+}
+.selectPriority{
+    display: block;
+}
+.itemPriority{
+    width: 100%;
+    background-color: rgb(20 30 51 /1)
+}
